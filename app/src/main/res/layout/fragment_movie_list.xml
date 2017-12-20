@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.iamzhaoyuan.android.popularmovies.MovieListFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_poster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/tv_error_message"
+        android:text="@string/txt_error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:visibility="invisible"/>
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"/>
+
+</FrameLayout>

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Popular Movies</string>
+
+    <string name="action_type">Type</string>
+    <string name="content_desc_poster">Movie Poster</string>
+    <string name="txt_error_message">An error occured. Please try again later.</string>
+
+    <string-array name="action_type_array">
+        <item>Popular</item>
+        <item>Top Rated</item>
+    </string-array>
+
 </resources>
